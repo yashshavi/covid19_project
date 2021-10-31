@@ -1,0 +1,21 @@
+
+version: 2
+sources:
+  - name: covid19_data
+    database: FIVETRAN_INTERVIEW_DB
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: COVID_19_INDONESIA_YASHSHAVI_KASHYAP
+models:
+    - name: location_iso_code_details
+      description: "location and location_iso_code details"
+
+    - name: location_level_details
+      description: "location level details of a perticular location such as province or country"
+    
+    - name: location_island_details
+      descriptions: "island deatils for a perticular loaction"
+
+    - name: geographical_details
+      descriptions: "Total_Regencies, Total_Cities, Total_Districts, Total_Urban_Villages, Area_km_2_, Longitude, latitude details for a perticular location"
+    
