@@ -2,10 +2,10 @@
 version: 2
 sources:
   - name: covid19_data
-    database: FIVETRAN_INTERVIEW_DB
-    schema: GOOGLE_SHEETS
+    database: INTERVIEW_DB
+    schema: PLAYGROUND_YASHSHAVI_KASHYAP
     tables:
-      - name: COVID_19_INDONESIA_YASHSHAVI_KASHYAP
+      - name: ALL_DATA
 models:
     - name: location_iso_code_details
       description: "location and location_iso_code details"
